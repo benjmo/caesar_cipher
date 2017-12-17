@@ -33,7 +33,6 @@ int main(int argc, char *argv[]) {
       // encrypt or decrypt via args
       // format: ./caesar encrypt|decrypt|e|d <filename> <key>
       auto input = get_file_contents(argv[2]);
-      std::cout << input << "\n";
 
       int key;
       try {
